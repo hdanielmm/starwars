@@ -56,7 +56,7 @@ const App = () => {
 
       <h1>CRUD de Star Wars</h1>
       <div className="row">
-        <div className="col-sm" style={divStyle}>
+        <div className="col-sm">
           {editing ? (
             <div>
               <h2>Editar personaje</h2>
